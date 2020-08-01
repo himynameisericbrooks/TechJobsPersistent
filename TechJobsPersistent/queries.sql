@@ -9,7 +9,7 @@
     --WHERE Location = "St. Louis City";
 
 --Part 3
---SELECT Description, Skills.Name
+--SELECT DISTINCT Skills.Name, Description
 --FROM JobSkills
 --RIGHT JOIN Skills
 --ON Skills.Id = SkillId
